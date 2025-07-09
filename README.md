@@ -53,6 +53,6 @@ The dataset contains features extracted from breast cancer biopsies. It includes
 - Dropping the feature `fractal_dimension_mean` improved generalisation, suggesting it was noisy or less informative.
 
 ### Final Model Highlights
-- High accuracy and recall on both train and test sets demonstrate strong generalisation.
-- The model balances precision and recall effectively, crucial in healthcare to reduce both false positives and false negatives.
-- The refined Logistic Regression model is a reliable tool for breast cancer classification with minimal risk of dangerous misclassification.
+- **High accuracy (98.7% on training, 98.2% on test)** and **recall** on both train and test sets demonstrate strong generalisation.
+- The model balances precision and recall effectively, crucial in healthcare to **reduce both false positives and false negatives.**
+- The **refined Logistic Regression model** is a reliable tool for breast cancer classification with **minimal risk of dangerous misclassification.**
